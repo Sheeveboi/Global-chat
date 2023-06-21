@@ -20,8 +20,8 @@ print("starting..");
 
 prefix = ">>";
 discKey = os.environ.get('global_key'); 
-#discKey = "NzE4MzczMzcxNTY5NTA0MzM3.GB6fo8.4e4DxRLsSmiydZTTK3bZJ0sHLJdkt9p1svnPYU"; 
-discKey = "NjY0MzA3NTgwODU1NjQ4Mjc2.GFnWz8.-UpQ7UKFKK47mprqZfY0epVUc74AY8_g-_AjI0";
+#discKey = ""; 
+discKey = "";
 fullEndpoint = 'https://discord.com/api/v10';
 fr = firebase.FirebaseApplication("https://gccchat-bf4b2-default-rtdb.firebaseio.com/", None);
 channels = 0;
